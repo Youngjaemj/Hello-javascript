@@ -16,7 +16,10 @@ JS 이므로 개발 환경은 웹 브라우져와 텍스트 에디터만 있으�
 - sourceTree 를 이용해 생성한 프로젝트 폴더를 내 문서로 가져오기
 
 ## hello, world 출력하기
-- 1. google에서 w3school html 2. 에디터로 hello.html 작성
+- 1.google에서 w3school html 
+- 2.에디터로 hello.html 작성
+
+<!--
 <!DOCTYPE html>
 <html>
 <body>
@@ -26,6 +29,8 @@ console.log("Hello world!");
 </script>
 </body>
 </html>
+  -->
+  
   3. 크롬으로 실행 및 확인
 
 ## github에 올리기
