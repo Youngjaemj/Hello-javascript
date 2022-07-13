@@ -271,3 +271,27 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
     </script>
 </body>
 </html>
+
+## 연습문제 1-2
+
+- Bmi를 계산하는 프로그램을 작성해 봅시다.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>연습문제 1-2</h2>
+    <script>
+        var a1 = prompt("키를 입력해 주세요");
+        var a2 = prompt("몸무게를 입력해 주세요");
+        var b1 = Number(a1);
+        var b2 = Number(a2);
+        var c = b1 / 100;
+        console.log("당신의 BMI는" + b2 / (c * c) + "입니다");
+    </script>
+</body>
+</html>
