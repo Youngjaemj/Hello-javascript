@@ -295,3 +295,25 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
     </script>
 </body>
 </html>
+
+## 연습문제 1-3
+
+- 화씨를 입력받아서 섭씨로 바꾸는 프로그램을 작성해 봅시다.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>연습문제 1-3</h2>
+    <script>
+        var a = prompt("화씨를 입력하세요");
+        var b = Number(a);
+        var c = (b - 32) / 1.8;
+        console.log("섭씨는" + c + "입니다.")
+    </script>
+</body>
+</html>
