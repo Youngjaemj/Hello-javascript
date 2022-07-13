@@ -249,7 +249,7 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
 ## 연습문제 1-1
 
 - 두 수를 입력받아 4칙연산의 결과를 표시해 봅시다.
-
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -271,11 +271,11 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
     </script>
 </body>
 </html>
-
+-->
 ## 연습문제 1-2
 
 - Bmi를 계산하는 프로그램을 작성해 봅시다.
-
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -295,11 +295,11 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
     </script>
 </body>
 </html>
-
+-->
 ## 연습문제 1-3
 
 - 화씨를 입력받아서 섭씨로 바꾸는 프로그램을 작성해 봅시다.
-
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -317,3 +317,24 @@ BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
     </script>
 </body>
 </html>
+-->
+## 연습문제 1-4
+
+- 입력한 문자열의 길이를 알려주는 프로그램을 작성해 봅시다.
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>연습문제 1-3</h2>
+    <script>
+        var a = prompt("글자 수를 알고싶은 내용을 작성 하시오")
+        console.log("작성한 내용의 글자 수는" + a.length + "입니다")
+    </script>
+</body>
+</html>
+-->
