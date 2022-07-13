@@ -208,3 +208,66 @@ console.log(a + "" + b + "" + c + "=" + a + c);
 var ans = prompt("How are you?");<br/>
 alert(ans);
 
+
+
+
+
+
+# -연습문제1
+
+두 수를 입력받아 4칙연산의 결과를 표시해 봅시다.<br/>
+BMI를 계산하는 프로그램을 작성해 봅시다.<br/>
+화씨를 입력받아서 섭씨로 바꾸는 프로그램을 작성해 봅시다.<br/>
+입력한 문자열의 길이를 알려주는 프로그램을 작성해 봅시다.<br/>
+
+
+## 답안 예시
+
+- ex1-1.html
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+</head>
+<body>
+    <script>
+    여기에 답 작성
+    </script>
+</body>
+</html>
+-->
+
+## 풀이 영상
+## 해답 보기
+
+- 아래 링크에는 문제의 해답이 있습니다. 먼저 혼자 풀어보고 문제의 답을 보세요.<br/>
+  https://gist.github.com/honux77/adfc9f0d86209fa7f0a084c779aa75ec
+
+## 연습문제 1-1
+
+- 두 수를 입력받아 4칙연산의 결과를 표시해 봅시다.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>연습문제 1-1</h2>
+    <script>
+        var a1 = prompt("숫자 1을 입력하시오");
+        var a2 = prompt("숫자 2를 입력하시오");
+        var b1 = Number(a1);
+        var b2 = Number(a2);
+        console.log(b1 + b2);
+        console.log(b1 - b2);
+        console.log(b1 * b2);
+        console.log(b1 / b2);
+    </script>
+</body>
+</html>
