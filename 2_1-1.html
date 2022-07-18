@@ -8,10 +8,13 @@
 <body>
     <h2>구구단 구현하기1-1 2단,3단</h2>
     <script>
-        var two = 2
-        var three = 3
-        for (n = 1; n <= 9; n++) {
-            console.log("2 * " + n + " = " + (two * n));
+        for (var gu = 2; gu <= 3; gu++) {
+            console.log(gu + "단");
+            document.write(gu + "단" + "<br/>");
+            for (var gu2 = 1; gu2 <= 9; gu2++) {//for문 안에 for문을 넣어 구구단 만드는 코드
+                console.log(gu + " * " + gu2 + " = " + (gu * gu2));
+                document.write(gu + " * " + gu2 + " = " + (gu * gu2) + "<br/>");
+            }
         }
     </script>
 </body>
