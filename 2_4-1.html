@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>8, 9단 구현하기 값 입력 및 if 조건문</h1>
+    <script>
+        var n = Number(prompt("몇 단을 출력 할까요?"));
+        if (n < 2) {
+            console.log("1보다 큰 수를 입력해 주세요.");
+        } else if (n > 9) {
+            console.log("10보다 작은 수를 입력해 주세요.");
+        } else {
+            for (i = 1; i <= 9; i++) {
+                console.log(n + " * " + i + " = " + n * i);
+                }
+        }
+    </script>
+</body>
+</html>
