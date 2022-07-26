@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>이중루프</h2>
+    <script>
+        for (var i = 0; i < 3; i++) {
+            for (var j = 0; j < 5; j++) {
+                console.log(i, j);
+                if (j === 2) {
+                    break;    //루프를 한 개만 빠져나가기 때문에 j 반복문만 빠져나가 0, 1, 2 까지만 표시된다.
+                }
+            }
+        }
+    </script>
+</body>
+</html>
